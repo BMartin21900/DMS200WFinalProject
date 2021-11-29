@@ -1,0 +1,190 @@
+body{
+	 background-image: url("img/background.png");
+	 margin: 0px;
+}
+
+html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+footer{
+	background-color: #262729;
+	display: flex;
+	color: white;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+	z-index: 999;
+}
+
+#time-and-date{
+	text-align: right;
+	margin: 10px 20px 10px auto;
+}
+
+.image-link{
+	width: 80px;
+	height: 80px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2px;
+}
+
+.link-div{
+	width: fit-content;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding: 5px;
+	color: #262729;
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+aside .link-div {
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+footer img {
+	height: fit-content;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+aside{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	right: 30px;
+	padding-top: 30px;
+}
+
+header{
+	position: absolute;
+}
+
+h1{
+	color: #262729;
+	font-family: 'Oswald', sans-serif;
+	font-size: 200px;
+	margin: 0px;
+	margin-left: 30px;
+	margin-top: 20px;
+	user-select: none;
+}
+
+.home-btn{
+	width: 45px;
+	height: 45px;
+}
+
+.x-btn{
+	width: 20px;
+	height: 23px;
+	display: flex;
+	margin-left: auto;
+	margin-right: 5px;
+	margin-top: auto;
+	margin-bottom: auto;
+	z-index: 9999;
+	cursor: pointer;
+}
+
+.content {
+  position: absolute;
+  left: 30%;
+  top:20%;
+  z-index: 9;
+  background-color: #f1f1f1;
+  width: 700px;
+  height: 600px;
+  resize: both;
+  overflow: hidden;
+  display: none;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a3a3a3;
+
+}
+
+.content-header {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+ background: linear-gradient(90deg, rgba(48,138,245,1) 0%, rgba(48,70,208,1) 100%);
+  color: #fff;
+}
+
+.content-body{
+	overflow: auto;
+	/*width: fit-content;*/
+	height: 87%;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	background-color: #e6e6e6;
+}
+
+.content-body p, .content-body h2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.content-body ul {
+	margin-top: 0px;
+}
+
+.top-info{
+	display: flex;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+
+.tiepicture{
+	border-radius: 1000px;
+	width: 250px;
+	height: 250px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-center{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h3, h4, h5{
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+h4{
+	font-weight: normal;
+	font-style: italic;
+}
+
+#previouswork .content-body p{
+	margin-top: 0px;
+}
+
+#coursestaken .content-body h4{
+	margin-top: 20px;
+}
+
+#previouswork .content-body hr{
+	margin:0px;
+	margin-bottom: 50px;
+}
