@@ -9,7 +9,8 @@ function moveDiv(item) {
   } 
 
   function dragMouseDown(e) {
-    if (checkxbtn(document.getElementById("aboutme"))){
+    //if (checkxbtn(document.getElementById("aboutme"))){
+      if (runchecks()){
     e = e || window.event;
     e.preventDefault();
     // get the mouse cursor position at startup:
@@ -53,4 +54,13 @@ function checkxbtn(element){
     check = false;
 });
   return check;
+}
+
+function runchecks(){
+  if(checkxbtn(document.getElementById("aboutme")) && checkxbtn(document.getElementById("skills")) && checkxbtn(document.getElementById("previouswork")) && checkxbtn(document.getElementById("contact")) && checkxbtn(document.getElementById("coursestaken"))){
+    return true;
+  }
+  else{
+    return false;
+  }
 }
