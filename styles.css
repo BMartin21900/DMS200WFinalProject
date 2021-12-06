@@ -108,7 +108,7 @@ h1{
   left: 30%;
   top:20%;
   z-index: 9;
-  background-color: #f1f1f1;
+  background-color: #e6e6e6;
   width: 700px;
   height: 600px;
   resize: both;
@@ -133,7 +133,7 @@ h1{
 .content-body{
 	overflow: auto;
 	/*width: fit-content;*/
-	height: 87%;
+	height: 80%;
 	padding: 15px;
 	display: flex;
 	flex-direction: column;
@@ -159,8 +159,8 @@ h1{
 
 .tiepicture{
 	border-radius: 1000px;
-	width: 250px;
-	height: 250px;
+	width: 220px;
+	height: 220px;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
 	margin-left: auto;
 	margin-right: auto;
@@ -169,6 +169,10 @@ h1{
 .content-center{
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#contact h2{
+	margin-top: 0px;
 }
 
 h3, h4, h5{
@@ -214,6 +218,28 @@ h4{
   	font-size: 15px;
   }
 
+  .content-body p{
+  	font-size: 18px;
+  }
+
+  .tiepicture{
+  	width: 200px;
+  	height: 200px;
+  }
+
+  h2{
+  	font-size: 28px;
+  }
+  li{
+  	font-size: 18px;
+  }
+    h3{
+  	font-size: 22px;
+  }
+    h4{
+  	font-size: 19px;
+  }
+
 }
 
   @media only screen and (max-height: 705px) {
@@ -239,6 +265,28 @@ h4{
   	right: 20px;
   	padding-top: 20px;
   }
+
+    .content-body p{
+  	font-size: 17px;
+  }
+
+    .tiepicture{
+  	width: 175px;
+  	height: 175px;
+  }
+
+    h2{
+  	font-size: 27px;
+  }
+  li{
+  	font-size: 17px;
+  }
+      h3{
+  	font-size: 21px;
+  }
+    h4{
+  	font-size: 18px;
+  }
 }
 
   @media only screen and (max-height: 630px) {
@@ -253,6 +301,26 @@ h4{
 	  	right: 15px;
 	  	padding-top: 15px;
 	  }
+	      .content-body p{
+  	font-size: 16px;
+  }
+
+   .tiepicture{
+  	width: 160px;
+  	height: 160px;
+  }
+    h2{
+  	font-size: 26px;
+  }
+  li{
+  	font-size: 16px;
+  }
+      h3{
+  	font-size: 20px;
+  }
+    h4{
+  	font-size: 17px;
+  }
  }
 
   @media only screen and (max-height: 565px) {
