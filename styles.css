@@ -270,6 +270,21 @@ h4{
 	  }
   }
 
+    @media only screen and (max-height: 500px) {
+
+  	.image-link{
+	  	width: 40%;
+	  }
+
+	aside .link-div{
+  		font-size: 11px;
+  }
+	aside{
+	  	right: 10px;
+	  	padding-top: 10px;
+	  }
+  }
+
   @media only screen and (max-width: 1430px) {
   	h1{
   		font-size: 180px;
