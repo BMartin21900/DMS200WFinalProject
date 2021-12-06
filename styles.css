@@ -201,6 +201,36 @@ h4{
 
   aside .link-div{
   	font-size: 14px;
+  	font-weight: bold;
   }
-  /*continue this... 14 inch laptop is quite small (~500px)*/
+
+  .home-btn{
+  	width: 45px;
+  	height: 45px;
+  	margin-left: 17px;
+  }
+
+    footer{
+  	font-size: 15px;
+  }
+}
+
+  @media only screen and (max-height: 705px) {
+  .image-link{
+  	width: 70%;
+  }
+
+ aside .link-div{
+  	margin-bottom: 10px;
+  }
+
+  footer{
+  	font-size: 13px;
+  }
+
+  .home-btn{
+  	width: 35px;
+  	height: 35px;
+  	margin-left: 15px;
+  }
 }
