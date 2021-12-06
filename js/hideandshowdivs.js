@@ -97,10 +97,13 @@ if(element.style.display == ""){
 	}
 	else{
 		element.style.display = 'block';
-		element.style.top = 20 + "%";
-		element.style.left = 30 + "%";
-		element.style.width = 700 + "px";
-		element.style.height = 600 + "px";
+		element.style.top = 25 + "%";
+		element.style.left = 33 + "%";
+		element.style.width = 35 + "%";
+		element.style.height = 40 + "%";
+		//Fixes window size change glitch
+		element.style.width = element.offsetWidth + "px";
+		element.style.height = element.offsetHeight + "px";
 	}
 }
 
