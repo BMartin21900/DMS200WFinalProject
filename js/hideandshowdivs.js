@@ -18,6 +18,7 @@ function showAboutMe(){
 	var showelement = document.getElementById('aboutme');
 	runHideOrShow(showelement);
 	moveDiv(showelement);
+	clicked(showelement);
 	
 });
 
@@ -25,24 +26,28 @@ function showAboutMe(){
 	var showelement = document.getElementById('skills');
 	runHideOrShow(showelement);
 	moveDiv(showelement);
+	clicked(showelement);
 });
 
 	element3.addEventListener("click", () => {
 	var showelement = document.getElementById('previouswork');
 	runHideOrShow(showelement);
 	moveDiv(showelement);
+	clicked(showelement);
 });
 
 	element4.addEventListener("click", () => {
 	var showelement = document.getElementById('coursestaken');
 	runHideOrShow(showelement);
 	moveDiv(showelement);
+	clicked(showelement);
 });
 
 	element5.addEventListener("click", () => {
 	var showelement = document.getElementById('contact');
 	runHideOrShow(showelement);
 	moveDiv(showelement);
+	clicked(showelement);
 });
 
 
