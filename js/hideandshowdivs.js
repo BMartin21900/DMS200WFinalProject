@@ -100,7 +100,7 @@ if(element.style.display == ""){
 		element.style.top = 25 + "%";
 		element.style.left = 33 + "%";
 		element.style.width = 35 + "%";
-		element.style.height = 40 + "%";
+		element.style.height = 50 + "%";
 		//Fixes window size change glitch
 		element.style.width = element.offsetWidth + "px";
 		element.style.height = element.offsetHeight + "px";
